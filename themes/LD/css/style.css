@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     border: 0 none;
-    margin: 0;
     padding: 0;
 }
 
@@ -22,7 +21,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: rgb(232, 205, 209);
 }
 
 .main {
@@ -31,6 +30,7 @@ body {
 
 .header, .footer {
     flex: 0 0 auto;
+    color:rgb(100, 59, 66)
 }
 
 /* Header */
@@ -38,6 +38,8 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    border: 2px rgb(36, 25, 25);
+    background-color: rgb(197, 154, 158);
 }
 
 /* Title */
@@ -59,7 +61,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: rgb(44, 22, 22);
 }
 
 .title p {
@@ -71,7 +73,8 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px solid rgb(54, 35, 35);
+    background-color: rgb(232, 205, 209);
 }
 
 .footer a {
@@ -86,7 +89,7 @@ body {
 
 body {
     font-family: sans-serif;
-    line-height: 1.5rem;
+    line-height: 2rem;
     color: #444;
 }
 
