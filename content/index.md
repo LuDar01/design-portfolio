@@ -6,6 +6,9 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Mitt namn är Lutfia Darouich och jag är 21 år gammal. 
+Jag föddes i Grekland men jag kommer från ett Syrisk bakgrung, ett funfact om mig är att jag kan prata fyra språk flytande.
+Jag är ganska ny till programmering/design men jag gör mitt bästa för att lära mig.
 
-This is a sample home page written in markdown with some frontmatter defined.
+![me](%assets_url%/img/me.jpeg)
+
