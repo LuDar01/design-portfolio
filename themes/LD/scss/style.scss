@@ -1,0 +1,95 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'typography';
+@import 'blockquotes';
+@import 'code';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $background-color;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px; 
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: $font-color;
+    text-align: center;
+}
+
+.title p {
+    font-style: italic;
+    text-align: center;
+}
+
+
+.header {
+    flex: auto;
+    color: $header-footer-color;
+    border: $border-color;
+    display: block;
+    background-color: $header-footer-color;
+    background-size: cover;
+    border-bottom: 1px solid $accent-color;
+}
+
+.footer {
+    flex: 0 0 auto;
+    color: $accent-color;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $accent-color;
+    background-color: $background-color;
+    box-sizing: border-box;
+}
+
+.footer a {
+    color: $accent-color;
+}
+
+.siteheader {
+    display: flex;
+    justify-content: space-between;
+    border: $border-color;
+    color: $accent-color;
+    text-align: center;
+    margin: auto;
+}
+
+
+ol {
+    padding-left: 1.5em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
