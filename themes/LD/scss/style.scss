@@ -37,6 +37,10 @@ body {
 
 .main {
     flex: 1 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
 }
 
 
@@ -44,11 +48,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: $font-color;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .title p {
     font-style: italic;
-    text-align: center;
 }
 
 
@@ -60,6 +64,7 @@ body {
     background-color: $header-footer-color;
     background-size: cover;
     border-bottom: 1px solid $accent-color;
+    padding: 20px;
 }
 
 .footer {
@@ -67,9 +72,11 @@ body {
     color: $accent-color;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-top: 1px solid $accent-color;
     background-color: $background-color;
     box-sizing: border-box;
+    padding: 20px
 }
 
 .footer a {
@@ -83,13 +90,12 @@ body {
     color: $accent-color;
     text-align: center;
     margin: auto;
+    padding: 20px;
 }
 
 
-ol {
-    padding-left: 1.5em;
-}
-
+ol,
 ul {
     padding-left: 1.5em;
+    margin-bottom: 10px;
 }

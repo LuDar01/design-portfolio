@@ -1,6 +1,8 @@
 ---
 Logo: image/logotyp.png
 Tagline: My portfolio.
+
+
 Social:
 
       title: Link till sidans github repo.
@@ -9,6 +11,6 @@ Social:
 
       title: Link till dbwebbs webbplats.
       url: https://dbwebb.se/
-      icon: fa-sharp fa-solid fa-leaf-maple
+      icon: fas fa-leaf
     
 ---
